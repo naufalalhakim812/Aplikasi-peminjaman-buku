@@ -8,7 +8,7 @@ public class Mahasiswa {
     public Mahasiswa(String nim, String nama) {
         this.nim = nim;
         this.nama = nama;
-        daftarPinjaman = new ArrayList<>();
+        this.daftarPinjaman = new ArrayList<>();
     }
 
     public void pinjam(Buku buku) {
@@ -27,3 +27,4 @@ public class Mahasiswa {
         return daftarPinjaman;
     }
 }
+
