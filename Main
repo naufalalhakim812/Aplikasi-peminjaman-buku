@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("\nBerapa buku yang dipinjam?");
         int jumlah = input.nextInt();
-        input.nextLine(); // buang newline
+        input.nextLine();
 
         for (int i = 1; i <= jumlah; i++) {
             System.out.println("\nData Buku ke-" + i);
@@ -28,7 +28,6 @@ public class Main {
             mhs.pinjam(buku);
         }
 
-        // CETAK OUTPUT
         System.out.println("\n======================================================");
         System.out.println("NIM   : " + mhs.getNim());
         System.out.println("Nama  : " + mhs.getNama());
